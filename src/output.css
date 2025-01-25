@@ -864,6 +864,14 @@ video {
     gap: 400px;
   }
 
+  .md\:gap-\[\] {
+    gap: ;
+  }
+
+  .md\:gap-\[50px\] {
+    gap: 50px;
+  }
+
   .md\:place-self-start {
     place-self: start;
   }
