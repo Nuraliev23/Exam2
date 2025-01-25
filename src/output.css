@@ -553,3 +553,334 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#FFCCCC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 204 204 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#B91122\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 17 34 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[5px\] {
+  padding: 5px;
+}
+
+.p-\[7px\] {
+  padding: 7px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
+}
+
+.pl-\[35px\] {
+  padding-left: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-\[20pc\] {
+  font-size: 20pc;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[w\] {
+  color: w;
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#797979\] {
+  --tw-text-opacity: 1;
+  color: rgb(121 121 121 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .md\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .md\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[80\] {
+    width: 80;
+  }
+
+  .md\:w-\[5\%\] {
+    width: 5%;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .md\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:gap-\[100px\] {
+    gap: 100px;
+  }
+
+  .md\:gap-\[400px\] {
+    gap: 400px;
+  }
+
+  .md\:place-self-start {
+    place-self: start;
+  }
+
+  .md\:place-self-center {
+    place-self: center;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+}
