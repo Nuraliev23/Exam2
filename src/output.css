@@ -595,6 +595,10 @@ video {
   width: 100%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .max-w-\[\] {
   max-width: ;
 }
@@ -773,6 +777,11 @@ video {
 .text-\[\#797979\] {
   --tw-text-opacity: 1;
   color: rgb(121 121 121 / var(--tw-text-opacity, 1));
+}
+
+.text-\[red\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
